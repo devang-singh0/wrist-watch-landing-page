@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hanken+Grotesk:wght@400;500&family=Literata:opsz@7..72&family=Montserrat&family=Noto+Sans&family=Open+Sans:wght@500&family=PT+Sans&family=Poppins:wght@500&family=Roboto:ital@0;1&family=Sofia+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="./images/logo.png" alt="">
+            <p>KING</p>
+        </div>
+        <nav>
+            <ul>
+                <li>Shop</li>
+                <li>Brands</li>
+                <li>Contact us</li>
+                <li class="button">Sign up</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="one">
+            <h2>Exquisite Watches</h2>
+            <h3>Choose Luxury, <span>Choose Us</span></h3>
+            <p>Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision
+                Craftsmanship - watch</p>
+            <h1>$430.00</h1>
+            <img src="images/Frame 6.png" alt="">
+        </div>
+        <div id="two">
+            <div class="side left" onclick="indexMinus()"><img src="images/Group 1.png" alt=""></div>
+            <div id="imgDiv">
+                <section>
+                    <img src="images/Frame 24.png" alt="" class="img" style="--num: 0">
+                    <img src="images/Frame 25.png" alt="" class="img" style="--num: 1">
+                    <img src="images/Frame 26.png" alt="" class="img" style="--num: 2">
+                    <img src="images/Frame 27.png" alt="" class="img" style="--num: 3">
+                </section>
+            </div>
+            <div class="side right" onclick="indexPlus()"><img src="images/Group 1.png" alt=""></div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
